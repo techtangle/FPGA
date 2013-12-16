@@ -1,0 +1,110 @@
+Running: /opt/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_isim_beh.exe" -prj "/home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_beh.prj" "work.fft_calc_tb" "work.glbl" 
+ISim P.49d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../ipcore_dir/sample_ram.v" into library work
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../src/sample_capture.v" into library work
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../ipcore_dir/xfft_v8_0.v" into library work
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../ipcore_dir/fft_ram.v" into library work
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../ipcore_dir/cordic_v5_0.v" into library work
+WARNING:HDLCompiler:687 - "/home/justin/workspace/Mojo-Clock/syn/../ipcore_dir/cordic_v5_0.v" Line 6960: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" into library work
+Analyzing Verilog file "/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "/opt/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc_tb.v" Line 11: Port led is not connected to this instance
+WARNING:HDLCompiler:189 - "/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" Line 77: Size mismatch in connection of port <s_axis_cartesian_tdata>. Formal port size is 40-bit while actual signal size is 37-bit.
+WARNING:HDLCompiler:189 - "/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" Line 79: Size mismatch in connection of port <m_axis_dout_tdata>. Formal port size is 24-bit while actual signal size is 19-bit.
+WARNING:HDLCompiler:189 - "/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" Line 86: Size mismatch in connection of port <dina>. Formal port size is 19-bit while actual signal size is 18-bit.
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1551: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1566: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1570: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1574: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1638: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1653: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1657: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1661: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1706: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1717: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1718: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1719: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1758: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1769: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1770: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1771: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1839: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1840: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1860: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1861: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1866: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1867: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1872: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1873: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1949: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1950: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1970: Element index 15 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1971: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1976: Element index 23 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1977: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1982: Element index 31 into mem is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1983: Element index 3 into memp is out of bounds
+Completed static elaboration
+Fuse Memory Usage: 110728 KB
+Fuse CPU Usage: 1430 ms
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module sample_ram
+Compiling module sample_capture
+Compiling module FDE
+Compiling module SRLC16E
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1378: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1393: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1397: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1401: Element index 3 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1464: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1479: Element index 1 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1483: Element index 2 into memp is out of bounds
+WARNING:HDLCompiler:1007 - "/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1487: Element index 3 into memp is out of bounds
+Compiling module RAMB8BWER(DATA_WIDTH_A=9,DATA_WI...
+Compiling module INV
+Compiling module FD
+Compiling module LUT3(INIT=8'b01110101)
+Compiling module LUT4(INIT=16'b1111111110100010)
+Compiling module LUT5(INIT=32'b110111011111110110...
+Compiling module LUT6(INIT=64'b111110101111101000...
+Compiling module LUT2(INIT=4'b01)
+Compiling module FDS
+Compiling module LUT1(INIT=2'b10)
+Compiling module FDRE
+Compiling module SRL16E
+Compiling module MUXF7
+Compiling module MUXF8
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module FDR
+Compiling module DSP48A1(CARRYOUTREG=0,CREG=0,DRE...
+Compiling module DSP48A1(A0REG=1,B0REG=1,CARRYINR...
+Compiling module GND
+Compiling module VCC
+Compiling module RAMB8BWER(DATA_WIDTH_A=36,DATA_W...
+Compiling module xfft_v8_0
+Compiling module cordic_v5_0
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module fft_ram
+Compiling module fft_calc
+Compiling module fft_calc_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 114 Verilog Units
+Built simulation executable /home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_isim_beh.exe
+Fuse Memory Usage: 1217160 KB
+Fuse CPU Usage: 2340 ms
+GCC CPU Usage: 160 ms

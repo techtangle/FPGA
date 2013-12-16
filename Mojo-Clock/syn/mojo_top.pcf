@@ -1,0 +1,2768 @@
+//! **************************************************************************
+// Written by: Map P.49d on Mon Dec 16 16:21:13 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "d1_b<0>" LOCATE = SITE "P58" LEVEL 1;
+COMP "d1_b<1>" LOCATE = SITE "P57" LEVEL 1;
+COMP "d1_b<2>" LOCATE = SITE "P67" LEVEL 1;
+COMP "d1_b<3>" LOCATE = SITE "P66" LEVEL 1;
+COMP "d1_b<4>" LOCATE = SITE "P75" LEVEL 1;
+COMP "d1_c<0>" LOCATE = SITE "P143" LEVEL 1;
+COMP "d1_b<5>" LOCATE = SITE "P74" LEVEL 1;
+COMP "d1_c<1>" LOCATE = SITE "P144" LEVEL 1;
+COMP "d1_b<6>" LOCATE = SITE "P79" LEVEL 1;
+COMP "d1_c<2>" LOCATE = SITE "P1" LEVEL 1;
+COMP "d1_b<7>" LOCATE = SITE "P78" LEVEL 1;
+COMP "d1_c<3>" LOCATE = SITE "P2" LEVEL 1;
+COMP "d1_c<4>" LOCATE = SITE "P51" LEVEL 1;
+COMP "d1_c<5>" LOCATE = SITE "P50" LEVEL 1;
+COMP "d1_c<6>" LOCATE = SITE "P41" LEVEL 1;
+COMP "d1_c<7>" LOCATE = SITE "P40" LEVEL 1;
+COMP "d2_b<0>" LOCATE = SITE "P114" LEVEL 1;
+COMP "d2_b<1>" LOCATE = SITE "P115" LEVEL 1;
+COMP "d2_b<2>" LOCATE = SITE "P111" LEVEL 1;
+COMP "d2_b<3>" LOCATE = SITE "P112" LEVEL 1;
+COMP "d2_b<4>" LOCATE = SITE "P104" LEVEL 1;
+COMP "d2_c<0>" LOCATE = SITE "P29" LEVEL 1;
+COMP "d1_g<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "d2_b<5>" LOCATE = SITE "P105" LEVEL 1;
+COMP "d2_c<1>" LOCATE = SITE "P30" LEVEL 1;
+COMP "d1_g<1>" LOCATE = SITE "P12" LEVEL 1;
+COMP "d2_b<6>" LOCATE = SITE "P101" LEVEL 1;
+COMP "d2_c<2>" LOCATE = SITE "P26" LEVEL 1;
+COMP "d1_g<2>" LOCATE = SITE "P9" LEVEL 1;
+COMP "d2_b<7>" LOCATE = SITE "P102" LEVEL 1;
+COMP "d2_c<3>" LOCATE = SITE "P27" LEVEL 1;
+COMP "d1_g<3>" LOCATE = SITE "P10" LEVEL 1;
+COMP "d2_c<4>" LOCATE = SITE "P35" LEVEL 1;
+COMP "d1_g<4>" LOCATE = SITE "P7" LEVEL 1;
+COMP "d2_c<5>" LOCATE = SITE "P34" LEVEL 1;
+COMP "d1_g<5>" LOCATE = SITE "P8" LEVEL 1;
+COMP "d2_c<6>" LOCATE = SITE "P33" LEVEL 1;
+COMP "d1_g<6>" LOCATE = SITE "P5" LEVEL 1;
+COMP "d2_c<7>" LOCATE = SITE "P32" LEVEL 1;
+COMP "d1_g<7>" LOCATE = SITE "P6" LEVEL 1;
+COMP "clk" LOCATE = SITE "P56" LEVEL 1;
+COMP "d2_g<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "d2_g<1>" LOCATE = SITE "P14" LEVEL 1;
+COMP "d2_g<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "d2_g<3>" LOCATE = SITE "P16" LEVEL 1;
+COMP "d2_g<4>" LOCATE = SITE "P22" LEVEL 1;
+COMP "d2_g<5>" LOCATE = SITE "P21" LEVEL 1;
+COMP "d2_g<6>" LOCATE = SITE "P24" LEVEL 1;
+COMP "d2_g<7>" LOCATE = SITE "P23" LEVEL 1;
+COMP "d1_r<0>" LOCATE = SITE "P81" LEVEL 1;
+COMP "d1_r<1>" LOCATE = SITE "P80" LEVEL 1;
+COMP "d1_r<2>" LOCATE = SITE "P83" LEVEL 1;
+COMP "d1_r<3>" LOCATE = SITE "P82" LEVEL 1;
+COMP "d1_r<4>" LOCATE = SITE "P85" LEVEL 1;
+COMP "d1_r<5>" LOCATE = SITE "P84" LEVEL 1;
+COMP "d1_r<6>" LOCATE = SITE "P88" LEVEL 1;
+COMP "d1_r<7>" LOCATE = SITE "P87" LEVEL 1;
+COMP "d2_r<0>" LOCATE = SITE "P99" LEVEL 1;
+COMP "d2_r<1>" LOCATE = SITE "P100" LEVEL 1;
+COMP "d2_r<2>" LOCATE = SITE "P97" LEVEL 1;
+COMP "d2_r<3>" LOCATE = SITE "P98" LEVEL 1;
+COMP "d2_r<4>" LOCATE = SITE "P94" LEVEL 1;
+COMP "d2_r<5>" LOCATE = SITE "P95" LEVEL 1;
+COMP "d2_r<6>" LOCATE = SITE "P92" LEVEL 1;
+COMP "d2_r<7>" LOCATE = SITE "P93" LEVEL 1;
+COMP "cclk" LOCATE = SITE "P70" LEVEL 1;
+COMP "select_button" LOCATE = SITE "P141" LEVEL 1;
+COMP "mic_clk" LOCATE = SITE "P138" LEVEL 1;
+COMP "rst_n" LOCATE = SITE "P38" LEVEL 1;
+COMP "speaker" LOCATE = SITE "P140" LEVEL 1;
+COMP "rtc_int" LOCATE = SITE "P121" LEVEL 1;
+COMP "spi_sck" LOCATE = SITE "P43" LEVEL 1;
+COMP "spi_channel<0>" LOCATE = SITE "P46" LEVEL 1;
+COMP "spi_channel<1>" LOCATE = SITE "P61" LEVEL 1;
+COMP "spi_channel<2>" LOCATE = SITE "P62" LEVEL 1;
+COMP "spi_channel<3>" LOCATE = SITE "P65" LEVEL 1;
+COMP "avr_rx_busy" LOCATE = SITE "P39" LEVEL 1;
+COMP "rtc_32khz" LOCATE = SITE "P120" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "P134" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "P133" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P132" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "P131" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "P127" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "P126" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "P124" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "P123" LEVEL 1;
+COMP "down_button" LOCATE = SITE "P142" LEVEL 1;
+COMP "avr_rx" LOCATE = SITE "P59" LEVEL 1;
+COMP "avr_tx" LOCATE = SITE "P55" LEVEL 1;
+COMP "mic_data" LOCATE = SITE "P137" LEVEL 1;
+COMP "rtc_cs" LOCATE = SITE "P117" LEVEL 1;
+COMP "spi_ss" LOCATE = SITE "P48" LEVEL 1;
+COMP "up_button" LOCATE = SITE "P139" LEVEL 1;
+COMP "rtc_miso" LOCATE = SITE "P119" LEVEL 1;
+COMP "rtc_sclk" LOCATE = SITE "P116" LEVEL 1;
+COMP "rtc_mosi" LOCATE = SITE "P118" LEVEL 1;
+COMP "spi_miso" LOCATE = SITE "P45" LEVEL 1;
+COMP "spi_mosi" LOCATE = SITE "P44" LEVEL 1;
+PIN mstr_ctrl/fft_calc/Maddsub_fft_imag_2_d_pins<92> = BEL
+        "mstr_ctrl/fft_calc/Maddsub_fft_imag_2_d" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/Mmult_fft_real_2_d_pins<92> = BEL
+        "mstr_ctrl/fft_calc/Mmult_fft_real_2_d" PINNAME CLK;
+PIN pdm_mic/pdm_fir/blk00000001/blk0000008f_pins<92> = BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000008f" PINNAME CLK;
+PIN pdm_mic/pdm_fir/blk00000001/blk00000090_pins<92> = BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000090" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b7_pins<26>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b7"
+        PINNAME CLKAWRCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b7_pins<27>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b7"
+        PINNAME CLKBRDCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b8_pins<26>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b8"
+        PINNAME CLKAWRCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b8_pins<27>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b8"
+        PINNAME CLKBRDCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ef_pins<26>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ef"
+        PINNAME CLKAWRCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ef_pins<27>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ef"
+        PINNAME CLKBRDCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000f0_pins<26>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000f0"
+        PINNAME CLKAWRCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000f0_pins<27>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000f0"
+        PINNAME CLKBRDCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002ac_pins<110> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002ac" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fb_pins<110> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fb" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000336_pins<110> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000336" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d83_pins<18> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d83" PINNAME
+        CLKAWRCLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d83_pins<19> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d83" PINNAME
+        CLKBRDCLK;
+PIN
+        mstr_ctrl/fft_calc/fft_output_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram_pins<26>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_output_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram"
+        PINNAME CLKAWRCLK;
+PIN
+        mstr_ctrl/fft_calc/fft_output_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram_pins<27>
+        = BEL
+        "mstr_ctrl/fft_calc/fft_output_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram"
+        PINNAME CLKBRDCLK;
+PIN
+        mstr_ctrl/fft_calc/sample_capture/sample_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/fft_calc/sample_capture/sample_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKA;
+PIN
+        mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>
+        = BEL
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram"
+        PINNAME CLKB;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002ab_pins<110> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002ab" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fa_pins<110> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fa" PINNAME CLK;
+PIN mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000335_pins<110> = BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000335" PINNAME CLK;
+TIMEGRP clk = BEL "avr_interface/cclk_detector/ctr_q_7" BEL
+        "avr_interface/cclk_detector/ctr_q_6" BEL
+        "avr_interface/cclk_detector/ctr_q_8" BEL
+        "avr_interface/cclk_detector/ctr_q_5" BEL
+        "avr_interface/cclk_detector/ctr_q_4" BEL
+        "avr_interface/cclk_detector/ctr_q_3" BEL
+        "avr_interface/cclk_detector/ctr_q_2" BEL
+        "avr_interface/cclk_detector/ctr_q_0" BEL
+        "avr_interface/cclk_detector/ctr_q_1" BEL "avr_interface/sample_q_9"
+        BEL "avr_interface/sample_q_8" BEL "avr_interface/sample_q_7" BEL
+        "avr_interface/sample_q_6" BEL "avr_interface/sample_q_5" BEL
+        "avr_interface/sample_q_4" BEL "avr_interface/sample_q_3" BEL
+        "avr_interface/sample_q_2" BEL "avr_interface/sample_channel_q_3" BEL
+        "avr_interface/sample_channel_q_2" BEL
+        "avr_interface/sample_channel_q_1" BEL
+        "avr_interface/sample_channel_q_0" BEL
+        "avr_interface/spi_slave/bit_ct_q_1" BEL
+        "avr_interface/spi_slave/bit_ct_q_0" BEL
+        "avr_interface/spi_slave/bit_ct_q_2" BEL
+        "avr_interface/spi_slave/dout_q_7" BEL
+        "avr_interface/spi_slave/dout_q_6" BEL
+        "avr_interface/spi_slave/dout_q_5" BEL
+        "avr_interface/spi_slave/dout_q_4" BEL
+        "avr_interface/spi_slave/dout_q_3" BEL
+        "avr_interface/spi_slave/dout_q_2" BEL
+        "avr_interface/spi_slave/dout_q_1" BEL
+        "avr_interface/spi_slave/dout_q_0" BEL
+        "avr_interface/spi_slave/data_q_7" BEL
+        "avr_interface/spi_slave/data_q_6" BEL
+        "avr_interface/spi_slave/data_q_5" BEL
+        "avr_interface/spi_slave/data_q_4" BEL
+        "avr_interface/spi_slave/data_q_3" BEL
+        "avr_interface/spi_slave/data_q_2" BEL
+        "avr_interface/spi_slave/data_q_1" BEL
+        "avr_interface/spi_slave/data_q_0" BEL
+        "avr_interface/spi_slave/sck_old_q" BEL
+        "avr_interface/spi_slave/mosi_q" BEL "avr_interface/spi_slave/sck_q"
+        BEL "avr_interface/spi_slave/ss_q" BEL "pdm_mic/clk_gen/ctr_q_3" BEL
+        "pdm_mic/clk_gen/ctr_q_2" BEL "pdm_mic/clk_gen/ctr_q_1" BEL
+        "pdm_mic/clk_gen/ctr_q_0" BEL "pdm_mic/clk_gen/overflow_q" BEL
+        "select_conditioner/ctr_q_25" BEL "select_conditioner/ctr_q_24" BEL
+        "select_conditioner/ctr_q_23" BEL "select_conditioner/ctr_q_22" BEL
+        "select_conditioner/ctr_q_21" BEL "select_conditioner/ctr_q_20" BEL
+        "select_conditioner/ctr_q_19" BEL "select_conditioner/ctr_q_18" BEL
+        "select_conditioner/ctr_q_17" BEL "select_conditioner/ctr_q_16" BEL
+        "select_conditioner/ctr_q_15" BEL "select_conditioner/ctr_q_14" BEL
+        "select_conditioner/ctr_q_13" BEL "select_conditioner/ctr_q_12" BEL
+        "select_conditioner/ctr_q_11" BEL "select_conditioner/ctr_q_10" BEL
+        "select_conditioner/ctr_q_9" BEL "select_conditioner/ctr_q_8" BEL
+        "select_conditioner/ctr_q_7" BEL "select_conditioner/ctr_q_6" BEL
+        "select_conditioner/ctr_q_5" BEL "select_conditioner/ctr_q_4" BEL
+        "select_conditioner/ctr_q_3" BEL "select_conditioner/ctr_q_2" BEL
+        "select_conditioner/ctr_q_1" BEL "select_conditioner/ctr_q_0" BEL
+        "select_conditioner/pressed_q" BEL "select_conditioner/max_q" BEL
+        "down_conditioner/ctr_q_25" BEL "down_conditioner/ctr_q_24" BEL
+        "down_conditioner/ctr_q_23" BEL "down_conditioner/ctr_q_22" BEL
+        "down_conditioner/ctr_q_21" BEL "down_conditioner/ctr_q_20" BEL
+        "down_conditioner/ctr_q_19" BEL "down_conditioner/ctr_q_18" BEL
+        "down_conditioner/ctr_q_17" BEL "down_conditioner/ctr_q_16" BEL
+        "down_conditioner/ctr_q_15" BEL "down_conditioner/ctr_q_14" BEL
+        "down_conditioner/ctr_q_13" BEL "down_conditioner/ctr_q_12" BEL
+        "down_conditioner/ctr_q_11" BEL "down_conditioner/ctr_q_10" BEL
+        "down_conditioner/ctr_q_9" BEL "down_conditioner/ctr_q_8" BEL
+        "down_conditioner/ctr_q_7" BEL "down_conditioner/ctr_q_6" BEL
+        "down_conditioner/ctr_q_5" BEL "down_conditioner/ctr_q_4" BEL
+        "down_conditioner/ctr_q_3" BEL "down_conditioner/ctr_q_2" BEL
+        "down_conditioner/ctr_q_1" BEL "down_conditioner/ctr_q_0" BEL
+        "down_conditioner/pressed_q" BEL "up_conditioner/ctr_q_25" BEL
+        "up_conditioner/ctr_q_24" BEL "up_conditioner/ctr_q_23" BEL
+        "up_conditioner/ctr_q_22" BEL "up_conditioner/ctr_q_21" BEL
+        "up_conditioner/ctr_q_20" BEL "up_conditioner/ctr_q_19" BEL
+        "up_conditioner/ctr_q_18" BEL "up_conditioner/ctr_q_17" BEL
+        "up_conditioner/ctr_q_16" BEL "up_conditioner/ctr_q_15" BEL
+        "up_conditioner/ctr_q_14" BEL "up_conditioner/ctr_q_13" BEL
+        "up_conditioner/ctr_q_12" BEL "up_conditioner/ctr_q_11" BEL
+        "up_conditioner/ctr_q_10" BEL "up_conditioner/ctr_q_9" BEL
+        "up_conditioner/ctr_q_8" BEL "up_conditioner/ctr_q_7" BEL
+        "up_conditioner/ctr_q_6" BEL "up_conditioner/ctr_q_5" BEL
+        "up_conditioner/ctr_q_4" BEL "up_conditioner/ctr_q_3" BEL
+        "up_conditioner/ctr_q_2" BEL "up_conditioner/ctr_q_1" BEL
+        "up_conditioner/ctr_q_0" BEL "up_conditioner/pressed_q" BEL
+        "mstr_ctrl/ctr_q_26" BEL "mstr_ctrl/ctr_q_25" BEL "mstr_ctrl/ctr_q_24"
+        BEL "mstr_ctrl/ctr_q_23" BEL "mstr_ctrl/ctr_q_22" BEL
+        "mstr_ctrl/ctr_q_21" BEL "mstr_ctrl/ctr_q_20" BEL "mstr_ctrl/ctr_q_19"
+        BEL "mstr_ctrl/ctr_q_18" BEL "mstr_ctrl/ctr_q_17" BEL
+        "mstr_ctrl/ctr_q_16" BEL "mstr_ctrl/ctr_q_15" BEL "mstr_ctrl/ctr_q_14"
+        BEL "mstr_ctrl/ctr_q_13" BEL "mstr_ctrl/ctr_q_12" BEL
+        "mstr_ctrl/ctr_q_11" BEL "mstr_ctrl/ctr_q_10" BEL "mstr_ctrl/ctr_q_9"
+        BEL "mstr_ctrl/ctr_q_8" BEL "mstr_ctrl/ctr_q_7" BEL
+        "mstr_ctrl/ctr_q_6" BEL "mstr_ctrl/ctr_q_5" BEL "mstr_ctrl/ctr_q_4"
+        BEL "mstr_ctrl/ctr_q_3" BEL "mstr_ctrl/ctr_q_2" BEL
+        "mstr_ctrl/ctr_q_1" BEL "mstr_ctrl/ctr_q_0" BEL
+        "mstr_ctrl/blinker_q_25" BEL "mstr_ctrl/blinker_q_24" BEL
+        "mstr_ctrl/blinker_q_23" BEL "mstr_ctrl/blinker_q_22" BEL
+        "mstr_ctrl/blinker_q_21" BEL "mstr_ctrl/blinker_q_20" BEL
+        "mstr_ctrl/blinker_q_19" BEL "mstr_ctrl/blinker_q_18" BEL
+        "mstr_ctrl/blinker_q_17" BEL "mstr_ctrl/blinker_q_16" BEL
+        "mstr_ctrl/blinker_q_15" BEL "mstr_ctrl/blinker_q_14" BEL
+        "mstr_ctrl/blinker_q_13" BEL "mstr_ctrl/blinker_q_12" BEL
+        "mstr_ctrl/blinker_q_11" BEL "mstr_ctrl/blinker_q_10" BEL
+        "mstr_ctrl/blinker_q_9" BEL "mstr_ctrl/blinker_q_8" BEL
+        "mstr_ctrl/blinker_q_7" BEL "mstr_ctrl/blinker_q_6" BEL
+        "mstr_ctrl/blinker_q_5" BEL "mstr_ctrl/blinker_q_4" BEL
+        "mstr_ctrl/blinker_q_3" BEL "mstr_ctrl/blinker_q_2" BEL
+        "mstr_ctrl/blinker_q_1" BEL "mstr_ctrl/blinker_q_0" BEL
+        "mstr_ctrl/mode_q_FSM_FFd1" BEL "mstr_ctrl/mode_q_FSM_FFd2" BEL
+        "mstr_ctrl/mode_q_FSM_FFd3" BEL "mstr_ctrl/x_q_3" BEL
+        "mstr_ctrl/x_q_2" BEL "mstr_ctrl/x_q_1" BEL "mstr_ctrl/x_q_0" BEL
+        "mstr_ctrl/blue_q_7" BEL "mstr_ctrl/blue_q_6" BEL "mstr_ctrl/blue_q_5"
+        BEL "mstr_ctrl/blue_q_4" BEL "mstr_ctrl/blue_q_3" BEL
+        "mstr_ctrl/blue_q_2" BEL "mstr_ctrl/blue_q_1" BEL "mstr_ctrl/blue_q_0"
+        BEL "mstr_ctrl/red_q_7" BEL "mstr_ctrl/red_q_6" BEL
+        "mstr_ctrl/red_q_5" BEL "mstr_ctrl/red_q_4" BEL "mstr_ctrl/red_q_3"
+        BEL "mstr_ctrl/red_q_2" BEL "mstr_ctrl/red_q_1" BEL
+        "mstr_ctrl/red_q_0" BEL "mstr_ctrl/green_q_7" BEL
+        "mstr_ctrl/green_q_6" BEL "mstr_ctrl/green_q_5" BEL
+        "mstr_ctrl/green_q_4" BEL "mstr_ctrl/green_q_3" BEL
+        "mstr_ctrl/green_q_2" BEL "mstr_ctrl/green_q_1" BEL
+        "mstr_ctrl/green_q_0" BEL "mstr_ctrl/hour_1_q_3" BEL
+        "mstr_ctrl/hour_1_q_2" BEL "mstr_ctrl/hour_1_q_1" BEL
+        "mstr_ctrl/hour_1_q_0" BEL "mstr_ctrl/min_10_q_2" BEL
+        "mstr_ctrl/min_10_q_1" BEL "mstr_ctrl/min_10_q_0" BEL
+        "mstr_ctrl/y_q_2" BEL "mstr_ctrl/y_q_1" BEL "mstr_ctrl/y_q_0" BEL
+        "mstr_ctrl/min_1_q_3" BEL "mstr_ctrl/min_1_q_2" BEL
+        "mstr_ctrl/min_1_q_1" BEL "mstr_ctrl/min_1_q_0" BEL "mstr_ctrl/flip_q"
+        BEL "mstr_ctrl/wait_fft_q" BEL "mstr_ctrl/light_q_7" BEL
+        "mstr_ctrl/light_q_6" BEL "mstr_ctrl/light_q_5" BEL
+        "mstr_ctrl/light_q_4" BEL "mstr_ctrl/light_q_3" BEL
+        "mstr_ctrl/light_q_2" BEL "mstr_ctrl/light_q_1" BEL
+        "mstr_ctrl/light_q_0" PIN
+        "mstr_ctrl/fft_calc/Maddsub_fft_imag_2_d_pins<92>" PIN
+        "mstr_ctrl/fft_calc/Mmult_fft_real_2_d_pins<92>" BEL
+        "mstr_ctrl/fft_calc/fft_valid_q" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_8" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_7" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_6" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_5" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_4" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_3" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_2" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_1" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addra_q_0" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_8" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_7" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_6" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_5" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_4" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_3" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_2" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_1" BEL
+        "mstr_ctrl/fft_calc/sample_capture/addrb_q_0" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_15" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_14" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_13" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_12" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_11" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_10" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_9" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_8" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_7" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_6" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_5" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_4" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_3" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_2" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_1" BEL
+        "mstr_ctrl/fft_calc/sample_capture/sample_out_q_0" BEL
+        "mstr_ctrl/led_display/dina_q_23" BEL
+        "mstr_ctrl/led_display/dina_q_22" BEL
+        "mstr_ctrl/led_display/dina_q_21" BEL
+        "mstr_ctrl/led_display/dina_q_20" BEL
+        "mstr_ctrl/led_display/dina_q_19" BEL
+        "mstr_ctrl/led_display/dina_q_18" BEL
+        "mstr_ctrl/led_display/dina_q_17" BEL
+        "mstr_ctrl/led_display/dina_q_16" BEL
+        "mstr_ctrl/led_display/dina_q_15" BEL
+        "mstr_ctrl/led_display/dina_q_14" BEL
+        "mstr_ctrl/led_display/dina_q_13" BEL
+        "mstr_ctrl/led_display/dina_q_12" BEL
+        "mstr_ctrl/led_display/dina_q_11" BEL
+        "mstr_ctrl/led_display/dina_q_10" BEL "mstr_ctrl/led_display/dina_q_9"
+        BEL "mstr_ctrl/led_display/dina_q_8" BEL
+        "mstr_ctrl/led_display/dina_q_7" BEL "mstr_ctrl/led_display/dina_q_6"
+        BEL "mstr_ctrl/led_display/dina_q_5" BEL
+        "mstr_ctrl/led_display/dina_q_4" BEL "mstr_ctrl/led_display/dina_q_3"
+        BEL "mstr_ctrl/led_display/dina_q_2" BEL
+        "mstr_ctrl/led_display/dina_q_1" BEL "mstr_ctrl/led_display/dina_q_0"
+        BEL "mstr_ctrl/led_display/addra_q_6" BEL
+        "mstr_ctrl/led_display/addra_q_5" BEL
+        "mstr_ctrl/led_display/addra_q_4" BEL
+        "mstr_ctrl/led_display/addra_q_3" BEL
+        "mstr_ctrl/led_display/addra_q_2" BEL
+        "mstr_ctrl/led_display/addra_q_1" BEL
+        "mstr_ctrl/led_display/addra_q_0" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_17" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_16" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_15" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_14" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_13" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_12" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_11" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_10" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_9" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_8" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_7" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_6" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_5" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_4" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_3" BEL
+        "mstr_ctrl/led_display/led_driver/ctr_q_2" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_15" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_14" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_13" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_12" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_11" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_10" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_9" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_8" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_7" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_6" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_5" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_4" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_3" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_2" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_1" BEL
+        "mstr_ctrl/led_display/led_driver/led_b_q_0" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_15" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_14" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_13" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_12" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_11" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_10" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_9" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_8" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_7" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_6" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_5" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_4" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_3" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_2" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_1" BEL
+        "mstr_ctrl/led_display/led_driver/led_g_q_0" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_15" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_14" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_13" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_12" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_11" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_10" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_9" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_8" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_7" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_6" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_5" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_4" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_3" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_2" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_1" BEL
+        "mstr_ctrl/led_display/led_driver/led_r_q_0" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_7" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_6" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_5" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_4" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_3" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_2" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_1" BEL
+        "mstr_ctrl/led_display/led_driver/column_q_0" BEL
+        "mstr_ctrl/rtc/ctr_q_9" BEL "mstr_ctrl/rtc/ctr_q_8" BEL
+        "mstr_ctrl/rtc/ctr_q_7" BEL "mstr_ctrl/rtc/ctr_q_6" BEL
+        "mstr_ctrl/rtc/ctr_q_5" BEL "mstr_ctrl/rtc/ctr_q_4" BEL
+        "mstr_ctrl/rtc/ctr_q_3" BEL "mstr_ctrl/rtc/ctr_q_2" BEL
+        "mstr_ctrl/rtc/ctr_q_1" BEL "mstr_ctrl/rtc/ctr_q_0" BEL
+        "mstr_ctrl/rtc/state_q_FSM_FFd2" BEL "mstr_ctrl/rtc/state_q_FSM_FFd3"
+        BEL "mstr_ctrl/rtc/state_q_FSM_FFd1" BEL
+        "mstr_ctrl/rtc/state_q_FSM_FFd4" BEL "mstr_ctrl/rtc/pm_q" BEL
+        "mstr_ctrl/rtc/hour_1_q_3" BEL "mstr_ctrl/rtc/hour_1_q_2" BEL
+        "mstr_ctrl/rtc/hour_1_q_1" BEL "mstr_ctrl/rtc/hour_1_q_0" BEL
+        "mstr_ctrl/rtc/min_10_q_2" BEL "mstr_ctrl/rtc/min_10_q_1" BEL
+        "mstr_ctrl/rtc/min_10_q_0" BEL "mstr_ctrl/rtc/hour_10_q" BEL
+        "mstr_ctrl/rtc/sec_1_q_3" BEL "mstr_ctrl/rtc/sec_1_q_2" BEL
+        "mstr_ctrl/rtc/sec_1_q_1" BEL "mstr_ctrl/rtc/sec_1_q_0" BEL
+        "mstr_ctrl/rtc/sec_10_q_2" BEL "mstr_ctrl/rtc/sec_10_q_1" BEL
+        "mstr_ctrl/rtc/sec_10_q_0" BEL "mstr_ctrl/rtc/min_1_q_3" BEL
+        "mstr_ctrl/rtc/min_1_q_2" BEL "mstr_ctrl/rtc/min_1_q_1" BEL
+        "mstr_ctrl/rtc/min_1_q_0" BEL "mstr_ctrl/rtc/rtc_spi/ctr_q_2" BEL
+        "mstr_ctrl/rtc/rtc_spi/ctr_q_1" BEL "mstr_ctrl/rtc/rtc_spi/ctr_q_0"
+        BEL "mstr_ctrl/rtc/rtc_spi/state_q_FSM_FFd1" BEL
+        "mstr_ctrl/rtc/rtc_spi/state_q_FSM_FFd2" BEL
+        "mstr_ctrl/rtc/rtc_spi/sck_q_4" BEL "mstr_ctrl/rtc/rtc_spi/sck_q_3"
+        BEL "mstr_ctrl/rtc/rtc_spi/sck_q_2" BEL
+        "mstr_ctrl/rtc/rtc_spi/sck_q_1" BEL "mstr_ctrl/rtc/rtc_spi/sck_q_0"
+        BEL "mstr_ctrl/rtc/rtc_spi/new_data_q" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_7" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_6" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_5" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_4" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_3" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_2" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_1" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_out_q_0" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_q_7" BEL "mstr_ctrl/rtc/rtc_spi/data_q_6"
+        BEL "mstr_ctrl/rtc/rtc_spi/data_q_5" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_q_4" BEL "mstr_ctrl/rtc/rtc_spi/data_q_3"
+        BEL "mstr_ctrl/rtc/rtc_spi/data_q_2" BEL
+        "mstr_ctrl/rtc/rtc_spi/data_q_1" BEL "mstr_ctrl/rtc/rtc_spi/data_q_0"
+        BEL "avr_interface/byte_ct_q" BEL "mstr_ctrl/state_q_0" BEL
+        "mstr_ctrl/fft_calc/sample_capture/frame_full_q" BEL
+        "mstr_ctrl/fft_calc/sample_capture/frame_end_q" BEL
+        "mstr_ctrl/led_display/state_q_0" BEL "avr_interface/spi_slave/miso_q"
+        BEL "mstr_ctrl/fft_calc/frame_q" BEL
+        "mstr_ctrl/fft_calc/sample_capture/frame_q" BEL
+        "mstr_ctrl/led_display/page_q" BEL "mstr_ctrl/rtc/rtc_spi/mosi_q" BEL
+        "avr_interface/cclk_detector/ready_q" BEL "avr_interface/new_sample_q"
+        BEL "avr_interface/spi_slave/done_q" BEL "pdm_mic/mic_clk_q" BEL
+        "pdm_mic/new_data_q" BEL "pdm_mic/mic_data_q" BEL
+        "mstr_ctrl/hour_10_q" BEL "mstr_ctrl/pm_q" BEL
+        "mstr_ctrl/fft_calc/sample_capture/new_sample_out_q" BEL
+        "mstr_ctrl/led_display/flipped_q" BEL "mstr_ctrl/led_display/wea_q"
+        BEL "mstr_ctrl/rtc/new_time_q" BEL "mstr_ctrl/adc_timeout_q" BEL
+        "mstr_ctrl/rtc/cs_q" BEL "mstr_ctrl/rtc/need_config_q" BEL
+        "mstr_ctrl/x_q_3_1" BEL "mstr_ctrl/x_q_0_1" BEL "mstr_ctrl/x_q_1_1"
+        BEL "mstr_ctrl/x_q_1_2" BEL "clk_BUFGP/BUFG" BEL
+        "up_conditioner/Mshreg_sync_q_1" BEL "up_conditioner/sync_q_1" BEL
+        "select_conditioner/Mshreg_sync_q_1" BEL "select_conditioner/sync_q_1"
+        BEL "down_conditioner/Mshreg_sync_q_1" BEL "down_conditioner/sync_q_1"
+        BEL "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_86" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_86" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_88" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_88" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_87" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_87" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_83" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_83" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_85" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_85" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_84" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_84" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_80" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_80" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_82" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_82" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/Mshreg_pipe_q_0_81" BEL
+        "mstr_ctrl/fft_calc/sample_pipe/pipe_q_0_81" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000004" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000005" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000006" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000007" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000008" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000009" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000000a" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000000b" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000000c" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000000d" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000000e" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000000f" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000010" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000011" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000012" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000013" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000014" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000015" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000016" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000017" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000018" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000019" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001a" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001c" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001d/blk0000001e" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001d/blk0000001f" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001d/blk00000020" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001d/blk00000021" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000001d/blk00000022" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000024" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000025" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000026" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000027" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000028" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000029" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002a" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002b" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002c" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002d" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk0000002f" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000030" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000031" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000032" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000033" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000034" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000035" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000036" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000037" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000038" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk00000039" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk0000003a" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk0000003b" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk0000003c" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk0000003d" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000002e/blk0000003e" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004c" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000050" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000051" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000052" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000053" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000054" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000055" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000056" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000057" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000058" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000059" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000005a" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000005b" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000005c" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000005d" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000005e" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000005f" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000060" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000061" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000062" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000063" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000065" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000066" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000069" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000078" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000080" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000081" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000082" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000083" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000084" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000085" PIN
+        "pdm_mic/pdm_fir/blk00000001/blk0000008f_pins<92>" PIN
+        "pdm_mic/pdm_fir/blk00000001/blk00000090_pins<92>" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk00000091" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000a9" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ab" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ac" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ad" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ae" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000af" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000b0" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000b1" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000b8" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000b9" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ba" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000bb" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000bc" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000bd" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000c7" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000c8" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000c9" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ca" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000cb" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000cc" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000cd" BEL
+        "pdm_mic/pdm_fir/blk00000001/blk000000ce" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000016" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000017" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000018" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000019" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000001a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000001b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000001c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000001d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000020" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000021" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000032" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000033" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000034" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000035" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000036" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000037" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000038" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000039" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000003a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000003b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000003c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000003d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000003e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000003f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000040" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000041" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000043" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000044" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000045" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000046" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000047" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000048" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000049" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000004a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000004b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000057" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000058" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000059" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000005a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000005b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000005c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000005d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000005e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000071" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000072" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000073" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000074" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000075" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000076" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000077" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000078" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000080" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000083" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000084" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000085" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000086" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000087" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000088" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000089" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000008a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000008b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000008c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000008d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000008e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000008f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000090" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000091" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000092" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000093" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000094" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000095" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000096" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000097" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000098" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000099" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000009a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000009b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000009c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000009d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000009e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk0000009f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000a9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000aa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000ab" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000ac" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000ad" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000ae" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000af" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b6" PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b7_pins<26>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b7_pins<27>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b8_pins<26>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk000000b8_pins<27>"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000bb"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000bc"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000bd"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000be"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000bf"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c0"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c1"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c2"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c3"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c4"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c5"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c6"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c7"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c8"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000c9"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ca"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000cb"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000cc"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000cd"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ce"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000cf"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d0"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d1"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d2"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d3"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d4"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d5"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d6"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d7"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d8"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000d9"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000da"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000db"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000dc"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000dd"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000de"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000df"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e0"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e1"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e2"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e3"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e4"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e5"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e6"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e7"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e8"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000e9"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ea"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000eb"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ec"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ed"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ee"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ef_pins<26>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ef_pins<27>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000f0_pins<26>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000f0_pins<27>"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000fa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000fb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000fc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000fd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000fe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000ff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000100" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000101" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000102" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000103" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000104" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000105" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000106" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000107" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000108" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000109" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000010a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000010b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000010c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000010d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000010e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000110" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000111" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000112" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000113" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000114" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000115" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000116" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000117" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000118" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000119" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000011a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000011b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000011c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000011d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000011e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000011f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000120" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000121" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000122" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000123" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000124" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000125" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000126" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000127" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000128" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000129" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000012a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000012b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000012c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000012d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000012e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000012f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000130" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000131" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000132" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000133" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000134" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000135" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000136" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000137" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000138" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000139" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000013a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000013b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000013c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000013d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000013e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000013f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000140" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000141" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000142" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000143" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000144" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000145" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000146" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000147" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000148" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000149" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000014a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000014b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000014c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000014d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000014e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000014f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000150" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000151" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000152" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000153" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000154" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000155" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000156" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000157" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000158" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000159" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000015a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000015b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000015c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000015d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000015e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000015f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000160" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000161" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000162" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000163" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000164" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000165" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000166" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000167" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000168" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000169" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000016a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000016b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000016c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000016d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000016e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000016f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000170" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000171" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000172" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000173" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000174" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000175" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000176" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000177" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000178" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000179" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000017a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000017b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000017c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000017d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000017e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000017f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000180" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000181" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000182" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000183" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000184" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000185" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000186" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000187" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000188" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000189" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000018a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000018b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000018c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000018d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000018e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000018f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000190" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000191" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000192" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000193" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000194" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000255" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000256" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000257" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000258" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000259" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000025a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000025b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000025c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000025d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000025e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000025f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000260" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000261" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000262" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000263" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000264" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000265" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000266" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000267" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000268" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000269" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000026a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000026b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000026c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000026d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000026e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000026f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000270" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000271" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000272" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000273" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000274" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000275" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000276" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000277" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000278" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000279" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000027a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000027b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000027c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000027d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000027e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000027f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000280" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000281" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000282" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000283" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000284" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000285" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000286" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000287" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000288" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000289" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000028a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000028b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000028c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000028d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000028e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000028f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000290" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000291" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000292" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000293" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000294" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000295" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000296" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000297" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000298" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000299" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000029a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000029b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000029c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000029d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000029e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000029f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002a9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002aa" PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002ac_pins<110>" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002ba" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002bb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002bc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002bd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002be" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002bf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002c0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002c1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002c2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002c3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002c4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002c8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002c9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002ca" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002cb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002cc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002cd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002ce" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002cf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002d0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002d1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002d6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002d7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002d8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002d9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002da" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002db" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002dc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002dd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002de" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002df" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002e9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002ea" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002eb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002ec" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002ed" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002ee" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002ef" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002f7" PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fb_pins<110>" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk000002fe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk000002ff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000300" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000301" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000302" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000303" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000304" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000305" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000306" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000307" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000308" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk00000309" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk0000030a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk0000030b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk0000030c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk0000030d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk0000030e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk0000030f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000313" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000314" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000315" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000316" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000317" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000318" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000319" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk0000031a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk0000031b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk0000031c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000031f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000320" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000321" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000322" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000323" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000324" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000325" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000326" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000327" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000328" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000329" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000032a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000032b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000032c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000032d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000032e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000032f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000330" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000331" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk00000332" PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000336_pins<110>" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000376" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000377" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000378" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000379" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000037a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000037b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000037c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000037d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000037e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000037f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000380" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000381" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000382" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000383" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000384" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000385" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000386" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000387" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000388" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000389" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000038a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000038b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000038c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000038d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000038e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000038f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000390" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000391" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000392" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003f9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003fa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003fb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003fc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003fd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003fe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003ff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000400" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000401" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000402" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000403" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000404" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000405" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000406" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000407" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000408" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000409" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk0000040a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk0000040b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk0000040c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk0000040d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000042f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000430" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000431" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000432" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000433" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000434" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000435" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000436" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000437" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000438" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000439" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000043a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000043b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000043c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000043d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000043e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000043f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000440" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000441" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000442" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000443" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000444" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000445" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000446" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000447" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000448" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk00000449" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000044a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000044b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004aa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004ab" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004ac" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004ad" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004ae" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004af" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004b9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004ba" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004bb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004bc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004bd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004be" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004bf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000523" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000524" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000525" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000526" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000527" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000528" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000529" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000052a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000052b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000052c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000052d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000052e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000052f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000530" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000531" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000532" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000533" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000534" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000535" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000536" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000537" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000538" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000539" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000053a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000053b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000053c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000053d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000053e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000053f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000540" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000541" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000542" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000543" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000544" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000545" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000546" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000547" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000548" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000549" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000054a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000054b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000054c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000054d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000054e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000054f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000550" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000551" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000552" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000553" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000554" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000555" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000556" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000557" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000558" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000559" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000055a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000055b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000055c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000055d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000055e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000055f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000560" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000561" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000562" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000563" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000564" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000565" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000566" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000567" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000568" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000569" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000056a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000056b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000056c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000056d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000056e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000056f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000570" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000571" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000572" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000573" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000574" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000575" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000576" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000577" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000578" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000579" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000057a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000057b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000057c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000057d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000057e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000057f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000580" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000581" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000582" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000583" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000584" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000585" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000586" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000587" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000588" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000589" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000058a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000058b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000058c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000058d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000058e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000058f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000590" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000591" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000592" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000593" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000594" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000595" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000596" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000597" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000598" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000599" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000059a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000059b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000059c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000059d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000059e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005cb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005cc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005cd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ce" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005cf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005d9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005da" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005db" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005dc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005dd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005de" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005df" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ea" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005eb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ec" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ed" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ee" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ef" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005f9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005fa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005fb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005fc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005fd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005fe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005ff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000601" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000602" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000603" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000604" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000605" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000606" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000607" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000608" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000609" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000060a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000060b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000060c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000060d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000060e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000060f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000610" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000611" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000612" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000613" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000614" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000615" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000616" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000617" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000618" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000619" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000061a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000061c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000061d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000061e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000061f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000620" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000621" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000622" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000623" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000624" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000625" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000626" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000627" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000628" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000629" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000062a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000062b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000062c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000062d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000062e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000062f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000630" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000631" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000632" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000633" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000634" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000635" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000637" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000638" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000639" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000063a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000063b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000063c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000063d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000063e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000063f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000640" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000641" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000642" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000643" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000644" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000645" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000646" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000647" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000648" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000649" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000064a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000064b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000064c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000064d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000064e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000064f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000650" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000652" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000653" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000654" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000655" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000656" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000657" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000658" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000659" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000065a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000065b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000065c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000065d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000065e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000065f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000660" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000661" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000662" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000663" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000664" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000665" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000666" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000667" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000668" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000669" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000066a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000066b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000066d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000066e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000066f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000670" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000671" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000672" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000673" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000674" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000675" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000676" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000677" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000678" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000679" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000067a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000067b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000067c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000067d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000067e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000067f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000680" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000681" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000682" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000683" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000684" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000685" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000686" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000688" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000689" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000068a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000068b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000068c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000068d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000068e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000068f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000690" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000691" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000692" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000693" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000694" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000695" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000696" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000697" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000698" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000699" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000069a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000069b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000069c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000069d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000069e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000069f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000006a0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000006a1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007f5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007f6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007f7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007f8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007f9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007fa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007fb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007fc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007fd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007fe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000007ff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000800" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000801" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000802" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000803" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000804" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000805" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000806" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000807" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000808" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000809" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000080a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000080b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000080c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000080d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000080e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000829" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000082a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000082b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000082c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000082d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000082e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000082f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000830" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000831" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000832" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000833" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000834" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000835" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000836" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000837" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000838" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000839" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000083a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000083b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000083c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000083d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000083e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000083f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000840" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000841" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000842" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000085d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000085e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000085f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000860" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000861" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000862" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000863" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000864" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000865" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000866" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000867" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000868" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000869" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000086a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000086b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000086c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000086d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000086e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000086f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000870" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000871" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000872" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000873" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000874" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000875" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000876" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000891" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000892" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000893" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000894" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000895" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000896" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000897" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000898" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000899" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000089a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000089b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000089c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000089d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000089e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000089f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008a9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008aa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000904" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000905" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000906" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000907" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000908" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000909" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000090a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000090b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000913" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000914" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000915" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000916" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000917" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000918" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000919" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000091a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000091b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000091c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000091d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000091e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000091f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000920" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000921" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000922" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000923" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000924" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000925" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000926" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000927" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000928" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000929" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000092a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000092b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000092c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000092d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000092e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000092f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000930" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000931" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000932" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000933" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000934" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000935" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000936" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000937" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000938" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000939" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000093a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000093b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000093c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000093d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000093e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000093f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000940" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000941" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000942" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000943" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000944" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000945" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000946" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000947" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000948" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000949" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000094a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000094b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000094c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000094d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000094e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000094f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000950" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000951" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000952" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000953" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000954" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000955" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000956" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000957" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000958" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000959" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000095a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000095b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000095c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000095d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000095e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000095f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000960" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000961" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000962" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000963" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000964" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000965" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000966" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000967" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000968" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000969" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000096a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000096b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000096c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000096d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000096e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000096f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000970" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000971" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000972" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000973" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000974" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000975" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000976" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000977" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000978" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000979" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000097a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000995" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000996" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000997" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000998" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000999" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000099a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000099b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000099c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000099d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000099e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000099f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009a9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009aa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ab" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ac" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ad" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ae" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009c9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ca" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009cb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009cc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009cd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ce" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009cf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009d9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009da" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009db" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009dc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009dd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009de" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009df" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009e0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009e1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009e2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009fd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009fe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000009ff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a00" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a01" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a02" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a03" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a04" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a05" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a06" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a07" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a08" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a09" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a0a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a0b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a0c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a0d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a0e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a0f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a10" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a11" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a12" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a13" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a14" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a15" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a16" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a31" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a32" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a33" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a34" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a35" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a36" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a37" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a38" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a39" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a3a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a3b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a3c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a3d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a3e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a3f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a40" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a41" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a42" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a43" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a44" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a45" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a46" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a47" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a48" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a49" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a4a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a4b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a4c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a4d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a4e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a4f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a50" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a52" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a53" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a54" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a55" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a56" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a57" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a58" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a59" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a5a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a5b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a5c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a5d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a5e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a5f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a60" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a61" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a62" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a63" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a64" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a65" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a66" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a67" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a68" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a69" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a6a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a6b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a6c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a6d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a6e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a6f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a90" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a91" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a92" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a93" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a94" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a95" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a96" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000aac" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000aad" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000aae" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000aaf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ab0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ac9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000aca" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000acb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000acc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000acd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af1/blk00000af2/blk00000af5"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af1/blk00000af2/blk00000af6"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af7/blk00000af8/blk00000afb"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af7/blk00000af8/blk00000afc"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000afd/blk00000afe/blk00000b01"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000afd/blk00000afe/blk00000b02"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b03" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b04" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b05" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b06" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b07" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b08" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b09" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b0a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b0b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b44" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b45" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b46" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b47" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b48" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b49" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b4a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b4b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b4c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b4d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b4e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b4f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b50" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b51" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b52" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b53" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b54" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b55" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b56" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b57" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b58" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b59" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b5a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b5b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b5c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b5d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b5e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b5f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b60" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b61" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b62" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b63" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b64" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b65" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b66" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b67" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b68" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b69" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b6b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b6d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b6f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b71" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b73" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b75" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b77" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b79" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b7b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b7d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b7f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b81" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b83" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b85" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b87" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b89" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b8e"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b8f"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b90"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b91"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b92"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b93"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b94"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b95"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b96"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b97"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b98"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b99"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b9a"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b9b"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b9c"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b9d"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba2"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba3"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba4"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba5"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba6"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba7"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba8"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba9"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000baa"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000bab"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000bac"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000bad"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000bae"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000baf"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000bb0"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000bb1"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bba" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bbb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bbc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bbd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bbe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bbf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bc0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bc1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bca" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bcb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bcc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bcd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bce" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bcf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bd0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bd1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bda" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bdb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bdc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bdd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bde" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bdf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000be0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000be1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bea" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000beb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bec" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bed" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bee" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bef" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf2/blk00000bf3/blk00000bf5"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf2/blk00000bf3/blk00000bf7"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf9/blk00000bfa/blk00000bfd"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf9/blk00000bfa/blk00000bfe"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bff/blk00000c00/blk00000c03"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bff/blk00000c00/blk00000c04"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c05" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c06" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c07" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c08" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c09" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c0a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c0b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c0c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c0d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c0e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c0f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c10" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c11" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c12" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c13" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c14" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c15" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c16" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c17" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c18" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c19" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c1a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c1b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c1c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c1d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c1e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c1f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c20" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c21" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c22" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c23" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c24" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c25" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c26" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c66" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c67" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c68" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c69" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c6a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c6b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c6c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c6d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c6e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c6f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c70" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c71" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c72" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c73" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c74" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c75" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c78" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c79" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c7a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c7b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c7c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c7d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c7e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c7f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c80" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c81" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c82" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c83" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c84" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c85" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c86" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c87" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c88" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c89" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c8a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c8b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c8c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c8d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c8e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c8f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c90/blk00000c91/blk00000c93"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c90/blk00000c91/blk00000c94"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c95/blk00000c96/blk00000c98"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c95/blk00000c96/blk00000c99"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c9a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c9b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c9c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c9d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c9e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c9f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ca9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000caa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cab" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cac" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cad" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cae/blk00000caf/blk00000cb1"
+        BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cae/blk00000caf/blk00000cb3"
+        BEL "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d01" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d02" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d03" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d04" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d05" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d06" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d07" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d08" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d09" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d0a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d0b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d0c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d0d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d10" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d11" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d13" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d16" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d17" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d19" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d1a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d1b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d1c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d1d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d1e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d1f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d20" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d21" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d22" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d62" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d63" PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d83_pins<18>" PIN
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d83_pins<19>" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d84" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d85" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d86" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d87" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d88" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d89" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d8a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d8b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d8c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d8d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d8e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d8f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d90" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d91" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d92" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d93" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d94" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d95" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d96" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d97" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d98" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d99" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d9a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d9b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d9c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d9d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d9e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d9f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000da9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000daa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dab" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dac" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dad" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dae" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000daf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000db9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dba" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dbb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dbc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dbd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dbe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dbf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dc9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dca" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dcb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dcc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dcd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dce" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dcf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dd9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dda" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ddb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ddc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ddd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dde" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ddf" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000de9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dea" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000deb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dec" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ded" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dee" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000def" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df0" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df1" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df2" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df3" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df4" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df5" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df6" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df7" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df8" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000df9" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dfa" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dfb" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dfc" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dfd" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dfe" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000dff" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e00" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e01" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e02" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e03" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e04" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e05" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e06" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e07" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e08" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e09" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e0a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e0b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e0c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e0d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e0e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e0f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e10" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e11" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e12" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e13" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e14" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e15" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e16" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e17" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e18" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e19" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e1a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e1b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e1c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e1d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e1e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e1f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e20" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e21" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e22" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e23" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e24" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e25" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e26" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e27" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e28" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e29" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e2a" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e2b" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e2c" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e2d" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e2e" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e2f" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e30" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e31" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e32" BEL
+        "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000e33" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000004" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000005" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000006" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000007" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000008" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000009" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000a" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000026" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000027" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000028" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000029" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000002a" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000002b" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000002c" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000002d" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000002e" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000002f" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000030" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000004f" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000050" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000008a" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000008b" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000008c" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000008d" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000008e" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000008f" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000090" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000091" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000092" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000093" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000094" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000095" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000096" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000097" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000098" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000ad" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000ae" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000af" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b0" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b1" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b2" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b3" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000100" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000101" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000102" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000103" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000104" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000105" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000106" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000107" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000109" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000010a" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000010b" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000010c" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000010d" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000010e" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000010f" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000110" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000145" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000146" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000147" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000148" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000149" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000014a" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000014b" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000014c" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000014d" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000014e" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000014f" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000150" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000151" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000152" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000153" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000154" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000155" BEL
+        "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000156" PIN
+        "mstr_ctrl/fft_calc/fft_output_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram_pins<26>"
+        PIN
+        "mstr_ctrl/fft_calc/fft_output_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM9.ram_pins<27>"
+        PIN
+        "mstr_ctrl/fft_calc/sample_capture/sample_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/fft_calc/sample_capture/sample_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<28>"
+        PIN
+        "mstr_ctrl/led_display/display_ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram_pins<29>"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000067/SP.HIGH"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000067/SP.LOW"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000067/DP.HIGH"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000067/DP.LOW"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000068/SP.HIGH"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000068/SP.LOW"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000068/DP.HIGH"
+        BEL
+        "pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000068/DP.LOW"
+        PIN "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002ab_pins<110>"
+        PIN "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fa_pins<110>"
+        PIN "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000335_pins<110>";
+TS_clk = PERIOD TIMEGRP "clk" 50 MHz HIGH 50%;
+SCHEMATIC END;
+

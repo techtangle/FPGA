@@ -1,0 +1,29 @@
+Command line:
+   fft_calc_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55029
+
+Mon Feb 11 08:41:55 2013
+
+
+ Elaboration Time: 0.28 sec
+
+ Current Memory Usage: 237.687 Meg
+
+ Total Signals          : 18215
+ Total Nets             : 8604
+ Total Signal Drivers   : 5915
+ Total Blocks           : 4087
+ Total Primitive Blocks : 3300
+ Total Processes        : 11114
+ Total Traceable Variables  : 9127
+ Total Scalar Nets and Variables : 219955
+Total Line Count : 41479
+
+ Total Simulation Time: 20.54 sec
+
+ Current Memory Usage: 313.188 Meg
+
+Mon Feb 11 13:13:32 2013
+

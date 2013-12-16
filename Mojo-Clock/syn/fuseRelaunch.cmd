@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_isim_beh.exe" -prj "/home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_beh.prj" "work.fft_calc_tb" "work.glbl" 

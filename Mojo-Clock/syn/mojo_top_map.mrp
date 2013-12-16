@@ -1,0 +1,1547 @@
+Release 14.4 Map P.49d (nt64)
+Xilinx Mapping Report File for Design 'mojo_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o mojo_top_map.ncd mojo_top.ngd mojo_top.pcf 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Mon Dec 16 16:20:23 2013
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    5
+Slice Logic Utilization:
+  Number of Slice Registers:                 2,047 out of  11,440   17%
+    Number used as Flip Flops:               2,047
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      1,961 out of   5,720   34%
+    Number used as logic:                    1,546 out of   5,720   27%
+      Number using O6 output only:           1,071
+      Number using O5 output only:             179
+      Number using O5 and O6:                  296
+      Number used as ROM:                        0
+    Number used as Memory:                     242 out of   1,440   16%
+      Number used as Dual Port RAM:              8
+        Number using O6 output only:             8
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           234
+        Number using O6 output only:            42
+        Number using O5 output only:             0
+        Number using O5 and O6:                192
+    Number used exclusively as route-thrus:    173
+      Number with same-slice register load:     90
+      Number with same-slice carry load:        83
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   732 out of   1,430   51%
+  Number of MUXCYs used:                       732 out of   2,860   25%
+  Number of LUT Flip Flop pairs used:        2,264
+    Number with an unused Flip Flop:           649 out of   2,264   28%
+    Number with an unused LUT:                 303 out of   2,264   13%
+    Number of fully used LUT-FF pairs:       1,312 out of   2,264   57%
+    Number of unique control sets:              45
+    Number of slice register sites lost
+      to control set restrictions:             167 out of  11,440    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        98 out of     102   96%
+    Number of LOCed IOBs:                       98 out of      98  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        13 out of      32   40%
+  Number of RAMB8BWERs:                          6 out of      64    9%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     200    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     200    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                           10 out of      16   62%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                2.43
+
+Peak Memory Usage:  427 MB
+Total REAL time to MAP completion:  54 secs 
+Total CPU time to MAP completion:   40 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Pack:2238 - Function generator symbol
+   "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ea" (Output Signal =
+   mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa8) has an invalid use of
+   the LUTNM constraint. There are no other function generator symbols with a
+   matching LUTNM constraint value
+   (LUTNM=mstr_ctrl/fft_calc/fft_block/blk00000001/hlutnm00000095). The
+   constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b6" (Output Signal =
+   mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a8e) has an invalid use of
+   the LUTNM constraint. There are no other function generator symbols with a
+   matching LUTNM constraint value
+   (LUTNM=mstr_ctrl/fft_calc/fft_block/blk00000001/hlutnm00000088). The
+   constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f1" (Output Signal =
+   mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aaf) has an invalid use of
+   the LUTNM constraint. There are no other function generator symbols with a
+   matching LUTNM constraint value
+   (LUTNM=mstr_ctrl/fft_calc/fft_block/blk00000001/hlutnm00000099). The
+   constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008bd" (Output Signal =
+   mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a95) has an invalid use of
+   the LUTNM constraint. There are no other function generator symbols with a
+   matching LUTNM constraint value
+   (LUTNM=mstr_ctrl/fft_calc/fft_block/blk00000001/hlutnm0000008c). The
+   constraint will be ignored.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network avr_tx_IBUF has no load.
+INFO:LIT:395 - The above info message is repeated 126 more times for the
+   following (max. 5 shown):
+   avr_rx_busy_IBUF,
+   rtc_32khz_IBUF,
+   rtc_int_IBUF,
+   pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000067/SPO,
+   pdm_mic/pdm_fir/blk00000001/blk0000004d/blk00000064/blk00000068/SPO
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 206 block(s) removed
+ 130 block(s) optimized away
+ 276 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000033a" (XOR)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/sig0000115a" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000358" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/sig0000115b" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000359" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/sig00001178" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk000003ae" (ROM)
+removed.
+     The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000355" is loadless
+and has been removed.
+      Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000f1" (FF)
+removed.
+       The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000423" is loadless
+and has been removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/sig0000113f" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk000003ad" (ROM)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk0000033b" (XOR)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003b5" (XOR)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/sig00001210" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003d3" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/sig00001211" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003d4" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/sig0000122e" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000429" (ROM)
+removed.
+     The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000373" is loadless
+and has been removed.
+      Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000010f" (FF)
+removed.
+       The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000405" is loadless
+and has been removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/sig000011f5" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk00000428" (ROM)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003b6" (XOR)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000044d" (XOR)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/sig000012c9" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000046b" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/sig000012ca" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000046c" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/sig000012e7" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk000004a4" (ROM)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/sig000012ab" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk000004a3" (ROM)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000044e" (XOR)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c8" (XOR)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/sig0000137f" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004e6" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/sig00001380" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004e7" (MUX)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/sig0000139d" is
+loadless and has been removed.
+    Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk0000051f" (ROM)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/sig00001361" is
+loadless and has been removed.
+  Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk0000051e" (ROM)
+removed.
+Loadless block
+"mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004c9" (XOR)
+removed.
+Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000600" (SFF)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000009c9" is loadless
+and has been removed.
+Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000636" (SFF)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000009e4" is loadless
+and has been removed.
+Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000066c" (SFF)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000009ff" is loadless
+and has been removed.
+Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000006a2" (SFF)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a1a" is loadless
+and has been removed.
+Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c76" (SFF)
+removed.
+ The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d2e" is loadless
+and has been removed.
+  Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c77" (SFF)
+removed.
+   The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000cef" is loadless
+and has been removed.
+    Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c2f" (MUX)
+removed.
+     The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d01" is loadless
+and has been removed.
+      Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c41" (MUX)
+removed.
+       The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d25" is loadless
+and has been removed.
+        Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c65" (ROM)
+removed.
+       The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d1c" is loadless
+and has been removed.
+        Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c5c" (ROM)
+removed.
+     The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d00" is loadless
+and has been removed.
+      Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c40" (MUX)
+removed.
+       The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d13" is loadless
+and has been removed.
+        Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c53" (ROM)
+removed.
+       The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d0a" is loadless
+and has been removed.
+        Loadless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c4a" (ROM)
+removed.
+The signal "pdm_mic/pdm_fir/blk00000001/blk0000004d/sig00000104" is sourceless
+and has been removed.
+The signal "pdm_mic/pdm_fir/blk00000001/blk0000004d/sig00000105" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<57>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<56>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<55>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<54>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<53>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<52>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<51>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<50>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<49>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<48>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<47>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<38>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<37>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<36>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<35>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<34>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<33>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<32>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<25>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<24>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<23>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<22>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<21>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<20>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<19>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<18>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<17>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<16>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<15>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<6>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<5>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<4>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<3>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<2>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<1>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/m_axis_data_tdata<0>" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/s_axis_config_tready" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/event_frame_started" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/event_tlast_unexpected" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/event_tlast_missing" is sourceless and
+has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/event_data_in_channel_halt" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000e7" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000015" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000f4" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000001e" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000f9" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000001f" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000111" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d3d" (ROM)
+removed.
+  The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d6f" is sourceless
+and has been removed.
+   Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d3e" (ROM)
+removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d40" (ROM)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b8" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000004c" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b9" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000004d" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000ba" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000004e" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000bb" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000004f" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000bc" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000050" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000bd" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000051" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000be" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000052" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000bf" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000053" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000c0" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000054" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000c1" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000055" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000c2" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000056" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000cb" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000005f" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000cc" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000060" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000cd" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000061" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000ce" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000062" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000cf" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000063" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000d0" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000064" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000d1" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000065" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000009e" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000066" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000009f" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000067" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a0" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000068" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a1" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000069" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a2" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000006a" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a3" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000006b" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a4" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000006c" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a5" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000006d" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a6" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000006e" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a7" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000006f" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000a8" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000070" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b1" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000079" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b2" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000007a" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b3" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000007b" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b4" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000007c" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b5" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000007d" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b6" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000007e" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000000b7" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000007f" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000066a" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000669" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000668" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000667" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000666" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000665" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000664" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000663" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000662" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000661" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000660" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006f4" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006f3" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006f2" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006f1" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006f0" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006ef" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006ee" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006ed" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006ec" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006eb" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006ea" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000006e9" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000072f" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000072e" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000072d" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000072c" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000072b" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000072a" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000729" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000728" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000727" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007f2" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007f1" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007f0" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007ef" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007ee" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007ed" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007ec" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007eb" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007ea" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007e9" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig000007e8" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000087b" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig0000087a" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000879" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000878" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000877" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000876" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000875" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000874" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000873" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000872" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000871" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000870" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a83" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c5" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a84" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c6" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a85" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c7" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a86" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c8" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a87" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c9" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a88" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ca" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a89" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008cb" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a8a" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008cc" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a8b" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008cd" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a8c" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ce" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a8d" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008cf" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a96" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d8" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a97" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008d9" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a98" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008da" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a99" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008db" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a9a" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008dc" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a9b" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008dd" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a9c" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008de" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a9d" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f9" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a9e" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008fa" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000a9f" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008fb" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa0" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008fc" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa1" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008fd" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa2" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008fe" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa3" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ff" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa4" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000900" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa5" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000901" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa6" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000902" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000aa7" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000903" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab0" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000090c" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab1" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000090d" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab2" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000090e" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab3" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000090f" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab4" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000910" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab5" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000911" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000ab6" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000912" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c3f" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c41" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c43" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c45" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c47" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c49" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c4b" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c4d" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c4e" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c66" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c5e" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c4f" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c67" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c5f" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c50" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c68" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c60" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c51" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c69" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c61" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c52" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c6a" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c62" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c53" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c6b" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c63" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c54" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c6c" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c64" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c55" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c6d" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000c65" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d5e" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d14" (FF)
+removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d70" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/fft_block/blk00000001/sig00000d73" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d45" (ROM)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/m_axis_dout_tdata<10>" is sourceless
+and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/sig00000025" is sourceless
+and has been removed.
+ Sourceless block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000144" (BUF)
+removed.
+  The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/sig0000001c" is sourceless
+and has been removed.
+   Sourceless block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000108" (SFF)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/sig000000d2" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/sig000000d4" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/sig000000e4" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/blk0000000f" (XOR)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/sig000000fa" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/sig000000fc" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/sig0000010e" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/blk00000035" (XOR)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/sig00000121" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/sig00000123" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/sig00000131" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/blk00000055" (XOR)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/sig00000148" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/sig0000014a" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/sig0000015e" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/blk0000006d" (XOR)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/sig00000170" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/sig00000172" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/sig0000017d" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/blk0000009d" (XOR)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/sig00000195" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/sig00000197" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/sig000001ad" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/blk000000b8" (XOR)
+removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001cc" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001ce" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001cf" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d0" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d1" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d2" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d3" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d4" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d5" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d6" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d7" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001d8" is
+sourceless and has been removed.
+The signal "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/sig000001e6" is
+sourceless and has been removed.
+ Sourceless block
+"mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000dc" (XOR)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000042" (FF)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000005e5" (SRL16E)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000061b" (SRL16E)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000651" (SRL16E)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000687" (SRL16E)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ab" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ac" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ad" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008ae" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008af" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b0" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b1" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b2" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b3" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b4" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008b5" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008be" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008bf" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c0" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c1" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c2" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c3" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008c4" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008df" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e0" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e1" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e2" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e3" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e4" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e5" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e6" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e7" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e8" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008e9" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f2" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f3" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f4" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f5" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f6" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f7" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk000008f8" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b28" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b29" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b2a" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b2b" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b34" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b35" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b36" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b37" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cb7" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cb8" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d3f" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000d44" (ROM)
+removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/blk00000011"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/blk00000017"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/blk00000037"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/blk0000003e"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/blk00000057"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/blk0000005c"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/blk0000006f"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/blk00000077"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/blk0000009f"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/blk000000a3"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/blk000000ba"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/blk000000c3"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000db"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000de"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000df"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e0"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e1"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e2"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e3"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e4"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e5"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e6"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e7"
+(XOR) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000e8"
+(MUX) removed.
+Unused block "mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000ff" (SFF)
+removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000002
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000003
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000022
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000023
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000024
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000025
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000026
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000027
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000028
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000029
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000002a
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000002b
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000002c
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000002d
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000002e
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000002f
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000030
+   optimized to 0
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000031
+   optimized to 0
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000081/blk00000082
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000000b9/blk000000ba
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002af/blk000002b0
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002c6/blk000002c7
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002d4/blk000002d5
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000002fc/blk000002fd
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000311/blk00000312
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000031d/blk0000031e
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000337/blk00000338
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000003b2/blk000003b3
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000042d/blk0000042e
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000004a8/blk000004a9
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000006a3/blk000006a4
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk000006f1/blk000006f2
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000073f/blk00000740
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk0000078d/blk0000078e
+FDE 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a51
+   optimized to 0
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a77/blk00000a78
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a77/blk00000a79
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a9c/blk00000a9d
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000a9c/blk00000a9e
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ab6/blk00000ab7
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ab6/blk00000ab8
+VCC 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ad5/blk00000ad6
+GND 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000ad5/blk00000ad7
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af1/blk00000af2/blk00000af3
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af1/blk00000af2/blk00000af4
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af7/blk00000af8/blk00000af9
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000af7/blk00000af8/blk00000afa
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000afd/blk00000afe/blk00000aff
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000afd/blk00000afe/blk00000b00
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b15
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b17
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b19
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b1b
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b1d
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b1f
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b21
+MUXF7 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b23
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b24
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b25
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b26
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b27
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b38
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b39
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b3a
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b3b
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b3c
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b3d
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b3e
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b3f
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b40
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b41
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b42
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b43
+   optimized to 0
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b8c
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b8a/blk00000b8b/blk00000b8d
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba0
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000b9e/blk00000b9f/blk00000ba1
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf2/blk00000bf3/blk00000bf4
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf2/blk00000bf3/blk00000bf6
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf9/blk00000bfa/blk00000bfb
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bf9/blk00000bfa/blk00000bfc
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bff/blk00000c00/blk00000c01
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000bff/blk00000c00/blk00000c02
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c42
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c43
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c44
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c45
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c46
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c47
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c48
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c49
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c54
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c5d
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c5e
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c5f
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c60
+   optimized to 0
+LUT6 		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c61
+   optimized to 0
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c90/blk00000c91/blk00000c92
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000c95/blk00000c96/blk00000c97
+VCC
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cae/blk00000caf/blk00000cb0
+GND
+		mstr_ctrl/fft_calc/fft_block/blk00000001/blk00000cae/blk00000caf/blk00000cb2
+GND 		mstr_ctrl/fft_calc/fft_output_ram/XST_GND
+VCC 		mstr_ctrl/fft_calc/fft_output_ram/XST_VCC
+GND 		mstr_ctrl/fft_calc/sample_capture/sample_ram/XST_GND
+VCC 		mstr_ctrl/fft_calc/sample_capture/sample_ram/XST_VCC
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000002
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000003
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/blk0000000c
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk0000000b/blk0000000d
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/blk00000032
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000031/blk00000033
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/blk00000052
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000051/blk00000053
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/blk0000006a
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000069/blk0000006b
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/blk0000009a
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk00000099/blk0000009b
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/blk000000b5
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000b4/blk000000b6
+VCC 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000d9
+GND 		mstr_ctrl/fft_calc/sqrt_calc/blk00000001/blk000000d8/blk000000da
+GND 		mstr_ctrl/led_display/display_ram/XST_GND
+VCC 		mstr_ctrl/led_display/display_ram/XST_VCC
+VCC 		pdm_mic/pdm_fir/blk00000001/blk00000002
+GND 		pdm_mic/pdm_fir/blk00000001/blk00000003
+FD 		pdm_mic/pdm_fir/blk00000001/blk0000001b
+   optimized to 0
+GND 		pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000004e
+VCC 		pdm_mic/pdm_fir/blk00000001/blk0000004d/blk0000004f
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| avr_rx                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| avr_rx_busy                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| avr_tx                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| cclk                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| d1_b<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_b<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_c<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_g<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d1_r<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d1_r<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_b<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_b<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_c<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_g<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 16       | SLOW |              |          |          |
+| d2_r<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<3>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<4>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<5>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<6>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| d2_r<7>                            | IOB              | OUTPUT    | LVCMOS25             |       | 2        | SLOW |              |          |          |
+| down_button                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| led<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<4>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<5>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<6>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led<7>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| mic_clk                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| mic_data                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rst_n                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rtc_32khz                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rtc_cs                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| rtc_int                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rtc_miso                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rtc_mosi                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| rtc_sclk                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| select_button                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| speaker                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| spi_channel<0>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| spi_channel<1>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| spi_channel<2>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| spi_channel<3>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| spi_miso                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| spi_mosi                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| spi_sck                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| spi_ss                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| up_button                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

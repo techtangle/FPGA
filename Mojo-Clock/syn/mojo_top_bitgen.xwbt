@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/justin/workspace/Mojo-Clock/syn/mojo_top.ncd
+OUTFILE=/home/justin/workspace/Mojo-Clock/syn/mojo_top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/justin/workspace/Mojo-Clock/syn
+LICENSE=WebPack
+USER_INFO=180328474_0_0_835

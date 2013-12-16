@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"/home/justin/workspace/Mojo-Clock/syn/../ipcore_dir/cordic_v5_0.v" Line 6960: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"/opt/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc_tb.v" Line 11: Port <arg fmt="%s" index="1">led</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" Line 77: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">s_axis_cartesian_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">40</arg>-bit while actual signal size is <arg fmt="%d" index="1">37</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" Line 79: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">m_axis_dout_tdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">24</arg>-bit while actual signal size is <arg fmt="%d" index="1">19</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/home/justin/workspace/Mojo-Clock/syn/../src/fft_calc.v" Line 86: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dina</arg>&gt;. Formal port size is <arg fmt="%d" index="2">19</arg>-bit while actual signal size is <arg fmt="%d" index="1">18</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1551: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1566: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1570: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1574: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1638: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1653: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1657: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1661: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1706: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1717: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1718: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1719: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1758: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1769: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1770: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1771: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1839: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1840: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1860: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1861: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1866: Element index <arg fmt="%d" index="1">23</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1867: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1872: Element index <arg fmt="%d" index="1">31</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1873: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1949: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1950: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1970: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1971: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1976: Element index <arg fmt="%d" index="1">23</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1977: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1982: Element index <arg fmt="%d" index="1">31</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1983: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1378: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1393: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1397: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1401: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1464: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1479: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1483: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/P.49d/rtf/verilog/src/unisims/RAMB8BWER.v" Line 1487: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+</messages>
+

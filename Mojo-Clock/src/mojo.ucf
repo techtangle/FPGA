@@ -1,0 +1,121 @@
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2012/11/05
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
+
+# PlanAhead Generated physical constraints 
+NET "clk" LOC = P56;
+NET "rst_n" LOC = P38;
+
+NET "cclk" LOC = P70;
+
+NET "led<0>" LOC = P134;
+NET "led<1>" LOC = P133;
+NET "led<2>" LOC = P132;
+NET "led<3>" LOC = P131;
+NET "led<4>" LOC = P127;
+NET "led<5>" LOC = P126;
+NET "led<6>" LOC = P124;
+NET "led<7>" LOC = P123;
+
+NET "spi_mosi" LOC = P44;
+NET "spi_miso" LOC = P45;
+NET "spi_ss" LOC = P48;
+NET "spi_sck" LOC = P43;
+NET "spi_channel<0>" LOC = P46;
+NET "spi_channel<1>" LOC = P61;
+NET "spi_channel<2>" LOC = P62;
+NET "spi_channel<3>" LOC = P65;
+
+NET "avr_tx" LOC = P55;
+NET "avr_rx" LOC = P59;
+NET "avr_rx_busy" LOC = P39;
+
+NET "speaker" LOC = P140;
+
+NET "mic_data" LOC = P137;
+NET "mic_clk" LOC = P138;
+
+NET "rtc_sclk" LOC = P116;
+NET "rtc_cs" LOC = P117;
+NET "rtc_mosi" LOC = P118;
+NET "rtc_miso" LOC = P119;
+NET "rtc_32khz" LOC = P120;
+NET "rtc_int" LOC = P121;
+
+NET "up_button" LOC = P139;
+NET "down_button" LOC = P142;
+NET "select_button" LOC = P141;
+
+NET "d1_c<0>" LOC = P143 | DRIVE = 16;
+NET "d1_c<1>" LOC = P144 | DRIVE = 16;
+NET "d1_c<2>" LOC = P1 | DRIVE = 16;
+NET "d1_c<3>" LOC = P2 | DRIVE = 16;
+NET "d1_c<4>" LOC = P51 | DRIVE = 16;
+NET "d1_c<5>" LOC = P50 | DRIVE = 16;
+NET "d1_c<6>" LOC = P41 | DRIVE = 16;
+NET "d1_c<7>" LOC = P40 | DRIVE = 16;
+
+NET "d2_c<0>" LOC = P29 | DRIVE = 16;
+NET "d2_c<1>" LOC = P30 | DRIVE = 16;
+NET "d2_c<2>" LOC = P26 | DRIVE = 16;
+NET "d2_c<3>" LOC = P27 | DRIVE = 16;
+NET "d2_c<4>" LOC = P35 | DRIVE = 16;
+NET "d2_c<5>" LOC = P34 | DRIVE = 16;
+NET "d2_c<6>" LOC = P33 | DRIVE = 16;
+NET "d2_c<7>" LOC = P32 | DRIVE = 16;
+
+NET "d1_b<0>" LOC = P58 | DRIVE = 16;
+NET "d1_b<1>" LOC = P57 | DRIVE = 16;
+NET "d1_b<2>" LOC = P67 | DRIVE = 16;
+NET "d1_b<3>" LOC = P66 | DRIVE = 16;
+NET "d1_b<4>" LOC = P75 | DRIVE = 16;
+NET "d1_b<5>" LOC = P74 | DRIVE = 16;
+NET "d1_b<6>" LOC = P79 | DRIVE = 16;
+NET "d1_b<7>" LOC = P78 | DRIVE = 16;
+
+NET "d2_b<0>" LOC = P114 | DRIVE = 16;
+NET "d2_b<1>" LOC = P115 | DRIVE = 16;
+NET "d2_b<2>" LOC = P111 | DRIVE = 16;
+NET "d2_b<3>" LOC = P112 | DRIVE = 16;
+NET "d2_b<4>" LOC = P104 | DRIVE = 16;
+NET "d2_b<5>" LOC = P105 | DRIVE = 16;
+NET "d2_b<6>" LOC = P101 | DRIVE = 16;
+NET "d2_b<7>" LOC = P102 | DRIVE = 16;
+
+NET "d1_g<0>" LOC = P11 | DRIVE = 16;
+NET "d1_g<1>" LOC = P12 | DRIVE = 16;
+NET "d1_g<2>" LOC = P9 | DRIVE = 16;
+NET "d1_g<3>" LOC = P10 | DRIVE = 16;
+NET "d1_g<4>" LOC = P7 | DRIVE = 16;
+NET "d1_g<5>" LOC = P8 | DRIVE = 16;
+NET "d1_g<6>" LOC = P5 | DRIVE = 16;
+NET "d1_g<7>" LOC = P6 | DRIVE = 16;
+
+NET "d2_g<0>" LOC = P15 | DRIVE = 16;
+NET "d2_g<1>" LOC = P14 | DRIVE = 16;
+NET "d2_g<2>" LOC = P17 | DRIVE = 16;
+NET "d2_g<3>" LOC = P16 | DRIVE = 16;
+NET "d2_g<4>" LOC = P22 | DRIVE = 16;
+NET "d2_g<5>" LOC = P21 | DRIVE = 16;
+NET "d2_g<6>" LOC = P24 | DRIVE = 16;
+NET "d2_g<7>" LOC = P23 | DRIVE = 16;
+
+NET "d1_r<0>" LOC = P81 | DRIVE = 2;
+NET "d1_r<1>" LOC = P80 | DRIVE = 2;
+NET "d1_r<2>" LOC = P83 | DRIVE = 2;
+NET "d1_r<3>" LOC = P82 | DRIVE = 2;
+NET "d1_r<4>" LOC = P85 | DRIVE = 2;
+NET "d1_r<5>" LOC = P84 | DRIVE = 2;
+NET "d1_r<6>" LOC = P88 | DRIVE = 2;
+NET "d1_r<7>" LOC = P87 | DRIVE = 2;
+
+NET "d2_r<0>" LOC = P99 | DRIVE = 2;
+NET "d2_r<1>" LOC = P100 | DRIVE = 2;
+NET "d2_r<2>" LOC = P97 | DRIVE = 2;
+NET "d2_r<3>" LOC = P98 | DRIVE = 2;
+NET "d2_r<4>" LOC = P94 | DRIVE = 2;
+NET "d2_r<5>" LOC = P95 | DRIVE = 2;
+NET "d2_r<6>" LOC = P92 | DRIVE = 2;
+NET "d2_r<7>" LOC = P93 | DRIVE = 2;
+
+

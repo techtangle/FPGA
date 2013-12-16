@@ -1,0 +1,8 @@
+verilog work "../ipcore_dir/sample_ram.v"
+verilog work "../src/sample_capture.v"
+verilog work "../ipcore_dir/xfft_v8_0.v"
+verilog work "../ipcore_dir/fft_ram.v"
+verilog work "../ipcore_dir/cordic_v5_0.v"
+verilog work "../src/fft_calc.v"
+verilog work "../src/fft_calc_tb.v"
+verilog work "/opt/Xilinx/14.4/ISE_DS/ISE//verilog/src/glbl.v"

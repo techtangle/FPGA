@@ -1,0 +1,62 @@
+ISim log file
+Running: /home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/justin/workspace/Mojo-Clock/syn/fft_calc_tb_isim_beh.wdb 
+ISim P.49d (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 16.  For instance fft_calc/sqrt_calc/, width 40 of formal port s_axis_cartesian_tdata is not equal to width 37 of actual signal fft_sum.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 24.  For instance fft_calc/sqrt_calc/, width 24 of formal port m_axis_dout_tdata is not equal to width 19 of actual signal fft_mag.
+WARNING: For instance fft_calc/fft_ram/, width 19 of formal port dina is not equal to width 18 of actual.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.sample_capture.sample_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.fft_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+Stopped at time : 512035 ps : File "/home/justin/workspace/Mojo-Clock/src/fft_calc_tb.v" Line 65
+ISim P.49d (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 16.  For instance fft_calc/sqrt_calc/, width 40 of formal port s_axis_cartesian_tdata is not equal to width 37 of actual signal fft_sum.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 24.  For instance fft_calc/sqrt_calc/, width 24 of formal port m_axis_dout_tdata is not equal to width 19 of actual signal fft_mag.
+WARNING: For instance fft_calc/fft_ram/, width 19 of formal port dina is not equal to width 18 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.sample_capture.sample_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.fft_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+Stopped at time : 512035 ps : File "/home/justin/workspace/Mojo-Clock/src/fft_calc_tb.v" Line 65
+ISim P.49d (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 16.  For instance fft_calc/sqrt_calc/, width 40 of formal port s_axis_cartesian_tdata is not equal to width 37 of actual signal fft_sum.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 24.  For instance fft_calc/sqrt_calc/, width 24 of formal port m_axis_dout_tdata is not equal to width 19 of actual signal fft_mag.
+WARNING: For instance fft_calc/fft_ram/, width 19 of formal port dina is not equal to width 18 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.sample_capture.sample_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.fft_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+Stopped at time : 512035 ps : File "/home/justin/workspace/Mojo-Clock/src/fft_calc_tb.v" Line 65
+ISim P.49d (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 16.  For instance fft_calc/sqrt_calc/, width 40 of formal port s_axis_cartesian_tdata is not equal to width 37 of actual signal fft_sum.
+WARNING: File "/home/justin/workspace/Mojo-Clock/src/fft_calc.v" Line 24.  For instance fft_calc/sqrt_calc/, width 24 of formal port m_axis_dout_tdata is not equal to width 19 of actual signal fft_mag.
+WARNING: For instance fft_calc/fft_ram/, width 19 of formal port dina is not equal to width 18 of actual.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.sample_capture.sample_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module fft_calc_tb.fft_calc.fft_ram.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+Stopped at time : 512035 ps : File "/home/justin/workspace/Mojo-Clock/src/fft_calc_tb.v" Line 65
+# exit 0
